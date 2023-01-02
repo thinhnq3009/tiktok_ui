@@ -1,0 +1,40 @@
+.wrapper {
+    padding: 9px 16px;
+    line-height: 18px;
+    font-size: 1.6rem;
+    min-width: 100px;
+    border-radius: 4px;
+    font-weight: 700;
+    border: 1px solid transparent;
+}
+
+.primary {
+    color: var(--white);
+    background-color: var(--primary);
+}
+
+.outline {
+    color: var(--primary);
+    border-color: currentColor;
+    background-color: var(--white);
+}
+
+.round {
+    border-radius: 50px;
+}
+
+.small {
+    padding: 4px 16px;
+    min-width: 88px;
+}
+
+.lager {
+    padding: 14px 16px;
+    min-width: 148px;
+}
+
+.isText {
+    &:hover {
+        text-decoration: underline;
+    }
+}

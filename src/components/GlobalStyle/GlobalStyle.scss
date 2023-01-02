@@ -7,6 +7,10 @@
     // Default layout
     --default-layout-container-width: 1150px;
     --default-layout-header-height: 60px;
+    --black: #161823;
+    --white: white;
+    --light-black: #16182380;
+    --blue: #20d5ec;
 }
 
 * {
@@ -23,5 +27,18 @@ body {
     font-family: 'Kolker Brush', cursive;
     font-family: 'Poppins', sans-serif;
     line-height: 1.5;
+    color: var(--black);
     text-rendering: optimizeSpeed;
+}
+
+button,
+input,
+[tabindex] {
+    border: none;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--black);
 }
