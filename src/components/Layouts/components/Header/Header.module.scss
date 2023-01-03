@@ -7,6 +7,7 @@
 }
 
 .inner {
+    padding: 0 var(--default-layout-horizontal-spacer);
     height: 100%;
     width: var(--default-layout-container-width, 1150px);
     display: flex;
@@ -54,7 +55,8 @@
     }
 }
 
-.search-result {
+.search-result-popper {
+    padding-top: 8px;
 }
 
 .search-title {
@@ -99,4 +101,14 @@
 }
 
 .action {
+    display: flex;
+    align-items: center;
+}
+
+.more-btn {
+    cursor: pointer;
+    margin-left: 16px;
+    padding: 2px 4px;
+    font-size: 2rem;
+    background-color: transparent;
 }

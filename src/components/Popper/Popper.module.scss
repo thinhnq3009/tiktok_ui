@@ -1,5 +1,4 @@
 .wrapper {
-    padding-top: 8px;
     background: rgb(255, 255, 255);
     min-height: 100px;
     width: 100%;
@@ -7,21 +6,5 @@
     border-radius: 8px;
     max-height: min((100vh - 96px) - 60px, 734px);
     overflow: hidden;
-    overflow-y: scroll;
-}
-
-/* width */
-::-webkit-scrollbar {
-    width: 8px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-    border-radius: 4px;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: rgba(22, 24, 35, 0.06);
-    border-radius: 4px;
+    overflow-y: auto;
 }

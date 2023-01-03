@@ -11,6 +11,7 @@
     --white: white;
     --light-black: #16182380;
     --blue: #20d5ec;
+    --default-layout-horizontal-spacer: 24px;
 }
 
 * {
@@ -41,4 +42,20 @@ input,
 a {
     text-decoration: none;
     color: var(--black);
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 4px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(22, 24, 35, 0.06);
+    border-radius: 4px;
 }
